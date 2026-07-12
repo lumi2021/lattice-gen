@@ -1,0 +1,95 @@
+[gd_scene format=3 uid="uid://bcyii4a2yopx8"]
+
+[ext_resource type="Script" uid="uid://bjhb00pvydgc2" path="res://addons/latticecore/Nodes/LatticeWorkspaceRoot.gd" id="1_7cefc"]
+[ext_resource type="Script" uid="uid://dluq4gg54g784" path="res://addons/latticecore/Nodes/Lattice.gd" id="2_vo7lu"]
+[ext_resource type="Script" uid="uid://c4oqhta8548vp" path="res://addons/latticecore/Nodes/Components/Point.gd" id="3_cnvne"]
+[ext_resource type="Script" uid="uid://brwcisn626nmc" path="res://addons/latticecore/Nodes/Components/ServoBodyHolder.gd" id="3_wjago"]
+[ext_resource type="Script" uid="uid://ct4muggcjflj4" path="res://addons/latticecore/Nodes/Components/ScrewArray.gd" id="5_thvsl"]
+
+[node name="Node" type="Node" unique_id=1490545693]
+script = ExtResource("1_7cefc")
+
+[node name="Lattice" type="Node2D" parent="." unique_id=2075239204]
+position = Vector2(40, 40)
+script = ExtResource("2_vo7lu")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="Lattice" unique_id=1399569647]
+script = ExtResource("3_cnvne")
+radius_mm = 15
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="SG90" type="Node2D" parent="Lattice/Point1" unique_id=1681187954]
+position = Vector2(50, 0)
+rotation = 1.5707964
+script = ExtResource("3_wjago")
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="MG90S" type="Node2D" parent="Lattice/Point1" unique_id=8074171]
+position = Vector2(100, 0)
+rotation = 1.5707964
+script = ExtResource("3_wjago")
+servo_model = "MG90S"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="MG90D" type="Node2D" parent="Lattice/Point1" unique_id=1674682679]
+position = Vector2(150, 0)
+rotation = 1.5707964
+script = ExtResource("3_wjago")
+servo_model = "MG90D"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="DS3218" type="Node2D" parent="Lattice/Point1" unique_id=1398602815]
+position = Vector2(200, 0)
+rotation = 1.5707964
+script = ExtResource("3_wjago")
+servo_model = "DS3218"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="KST_X08_S" type="Node2D" parent="Lattice/Point1" unique_id=266679456]
+position = Vector2(250, 0)
+rotation = 1.5707964
+script = ExtResource("3_wjago")
+servo_model = "KST X08 S"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="MG995" type="Node2D" parent="Lattice/Point1" unique_id=1222681864]
+position = Vector2(300, 0)
+rotation = 1.5707964
+script = ExtResource("3_wjago")
+servo_model = "MG995"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="Point2" type="Node2D" parent="Lattice" unique_id=1868445494]
+position = Vector2(360, 0)
+script = ExtResource("3_cnvne")
+radius_mm = 15
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="Lattice2" type="Node2D" parent="." unique_id=1620310624]
+position = Vector2(40, 120)
+script = ExtResource("2_vo7lu")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="Lattice2" unique_id=1963078487]
+script = ExtResource("3_cnvne")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="Lattice2/Point1" unique_id=1723771893]
+script = ExtResource("5_thvsl")
+step_mm = 10.0
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="ScrewArray" type="Node2D" parent="Lattice2/Point1/ScrewArray" unique_id=1934400397]
+script = ExtResource("5_thvsl")
+step_mm = 10.0
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="Lattice2" unique_id=2073610912]
+position = Vector2(360, 0)
+script = ExtResource("3_cnvne")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
