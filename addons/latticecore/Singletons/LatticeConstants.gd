@@ -5,6 +5,7 @@ var step_mm: int = 10
 var screw_diameter_mm: int = 4
 var guide_diameter_mm: int = 2
 
+var debug_draw: bool = true
 
 var lattice_corner_left = load("res://addons/latticecore/Nodes/Parts/LaticeCornerLeft.gd")
 

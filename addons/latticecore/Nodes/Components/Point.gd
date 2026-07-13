@@ -9,6 +9,7 @@ var point_after: Point = null
 var length: int = 0
 
 func _draw() -> void:
+	if (!LatticeConstants.debug_draw): return
 	draw_circle(Vector2(0, 0), radius_mm, Color.BLUE, false, 0.5)
 
 func _recalculate_transform() -> void:

@@ -2,6 +2,8 @@
 extends Node2D
 class_name LatticeComponent
 
+var _bounding_box_rect := Rect2(-5, -5, 10, 10)
+
 func _ready() -> void:
 	set_notify_transform(true)
 
@@ -28,3 +30,10 @@ func _recalculate_transform() -> void:
 	
 	set_notify_transform(true)
 	queue_redraw()
+
+func get_bounding_box() -> Rect2:
+	return _bounding_box_rect
+
+func draw() -> void:
+	if (!LatticeConstants.debug_draw): return
+	draw_rect(get_bounding_box(), Color.BLUE, false, 0.5)
