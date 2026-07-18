@@ -14,6 +14,10 @@ class_name ScrewArray
 
 func _ready() -> void:
 	queue_redraw()
+func _enter_tree() -> void:
+	queue_redraw()
+func _recalculate_transform() -> void:
+	queue_redraw()
 
 func _draw() -> void:
 	var length := 0.0

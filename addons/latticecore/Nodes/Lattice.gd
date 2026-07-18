@@ -2,16 +2,6 @@
 extends Node2D
 class_name Lattice
 
-@export_group("Housing Casing Settings")
-@export var housing_margin_mm: float = 3.0:
-	set(val):
-		housing_margin_mm = val
-		queue_redraw()
-@export var housing_corner_radius_mm: float = 2.5:
-	set(val):
-		housing_corner_radius_mm = val
-		queue_redraw()
-
 @export_group("Polygon Settings")
 @export var closed: bool = false:
 	set(val):
@@ -21,6 +11,14 @@ class_name Lattice
 	set(val):
 		filled = val
 		queue_redraw()
+		
+var cached_lattice_settings: LSettings = null
+func get_lattice_settings() -> LSettings:
+	if (cached_lattice_settings == null):
+		if (get_parent().has_method("get_lattice_settings")):
+			cached_lattice_settings = get_parent().get_lattice_settings()
+	return cached_lattice_settings
+
 
 func _init() -> void:
 	child_entered_tree.connect(_on_child_entered_tree)
@@ -65,16 +63,14 @@ func _on_tree_reordered() -> void:
 			child.notification(NOTIFICATION_TRANSFORM_CHANGED)
 
 
-func _draw() -> void:
-	var children = get_children()
-	
+func get_merged_polygons() -> Array[PackedVector2Array]:
 	var points: Array[Point] = []
-	for child in children:
+	for child in get_children():
 		if child is Point:
 			points.append(child)
 			
 	if points.size() == 0:
-		return
+		return []
 
 	var master_polygons: Array[PackedVector2Array] = []
 	
@@ -100,21 +96,35 @@ func _draw() -> void:
 			])
 			master_polygons = _add_poly_to_union(master_polygons, segment_poly)
 			
-	var margin = housing_margin_mm
-	var corner_radius = housing_corner_radius_mm
-	
 	for pt in points:
 		for child in pt.get_children():
 			if child.has_method("get_bounding_box"):
 				var local_bbox: Rect2 = child.get_bounding_box()
 				
+				var margin = 0
+				var corner_radius = 0
+				
+				if (get_lattice_settings() != null):
+					if (child.housing_margin_mm_override != INF):
+						margin = child.housing_margin_mm_override
+					else: 
+						margin = get_lattice_settings().component_casing_margin_mm
+					
+					if (child.housing_corner_radius_mm_override != INF):
+						corner_radius = child.housing_corner_radius_mm_override
+					else:
+						corner_radius = get_lattice_settings().component_casing_corner_radius_mm
+				
 				var global_child_pos = pt.position + child.position 
 				var bbox = Rect2(global_child_pos + local_bbox.position, local_bbox.size)
-				var expanded_bbox = bbox.grow(margin)
 				
-				var housing_poly = _get_rounded_rect_polygon(expanded_bbox, corner_radius)
+				var housing_poly = _get_rounded_rect_polygon(bbox, corner_radius)
 				master_polygons = _add_poly_to_union(master_polygons, housing_poly)
-	
+				
+	return master_polygons
+
+func _draw() -> void:
+	var master_polygons = get_merged_polygons()
 	for poly in master_polygons:
 		var draw_points = poly.duplicate()
 		draw_points.append(draw_points[0])

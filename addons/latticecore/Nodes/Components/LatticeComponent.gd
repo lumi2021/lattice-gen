@@ -2,7 +2,21 @@
 extends Node2D
 class_name LatticeComponent
 
+@export_group("Housing Casing Settings")
+@export var housing_margin_mm_override: float = INF:
+	set(val):
+		housing_margin_mm_override = val
+		queue_redraw()
+@export var housing_corner_radius_mm_override: float = INF:
+	set(val):
+		housing_corner_radius_mm_override = val
+		queue_redraw()
+
 var _bounding_box_rect := Rect2(-5, -5, 10, 10)
+var _lattice_settings: LSettings = null
+
+func get_lattice_settings() -> LSettings: return _lattice_settings
+func set_lattice_settings(value: LSettings) -> void: _lattice_settings = value
 
 func _ready() -> void:
 	set_notify_transform(true)

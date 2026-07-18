@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://b5pfbycwa2scc"]
-
-[node name="EditorClone" type="Control" unique_id=444739452]
-layout_mode = 3
-anchors_preset = 0

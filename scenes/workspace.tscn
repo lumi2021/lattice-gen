@@ -1,19 +1,23 @@
 [gd_scene format=3 uid="uid://bcyii4a2yopx8"]
 
 [ext_resource type="Script" uid="uid://bjhb00pvydgc2" path="res://addons/latticecore/Nodes/LatticeWorkspaceRoot.gd" id="1_7cefc"]
+[ext_resource type="Script" uid="uid://br33ca75k42ae" path="res://addons/latticecore/Resources/LSettings.gd" id="2_c1nar"]
 [ext_resource type="Script" uid="uid://dluq4gg54g784" path="res://addons/latticecore/Nodes/Lattice.gd" id="2_vo7lu"]
 [ext_resource type="Script" uid="uid://c4oqhta8548vp" path="res://addons/latticecore/Nodes/Components/Point.gd" id="3_cnvne"]
 [ext_resource type="Script" uid="uid://brwcisn626nmc" path="res://addons/latticecore/Nodes/Components/ServoBodyHolder.gd" id="3_wjago"]
 [ext_resource type="Script" uid="uid://ct4muggcjflj4" path="res://addons/latticecore/Nodes/Components/ScrewArray.gd" id="5_thvsl"]
 
-[node name="Node" type="Node" unique_id=1490545693]
+[sub_resource type="Resource" id="Resource_c1nar"]
+script = ExtResource("2_c1nar")
+
+[node name="LatticeWorkspaceRoot" type="Node2D" unique_id=1039621398]
 script = ExtResource("1_7cefc")
+lattice_settings = SubResource("Resource_c1nar")
+metadata/_custom_type_script = "uid://bjhb00pvydgc2"
 
 [node name="LatticeWithServos" type="Node2D" parent="." unique_id=2075239204]
 position = Vector2(40, 40)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeWithServos" unique_id=1399569647]
@@ -70,9 +74,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeBeam" type="Node2D" parent="." unique_id=1620310624]
 position = Vector2(40, 120)
 script = ExtResource("2_vo7lu")
-housing_margin_mm = 4.5
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeBeam" unique_id=1963078487]
@@ -93,9 +94,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeBeam2" type="Node2D" parent="." unique_id=209490442]
 position = Vector2(40, 150)
 script = ExtResource("2_vo7lu")
-housing_margin_mm = 4.5
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeBeam2" unique_id=378128372]
@@ -116,8 +114,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeBeam3" type="Node2D" parent="." unique_id=197156347]
 position = Vector2(40, 180)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeBeam3" unique_id=1338114736]
@@ -149,8 +145,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeAngled1" type="Node2D" parent="." unique_id=638647483]
 position = Vector2(450, 30)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeAngled1" unique_id=1928987298]
@@ -171,8 +165,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeAngled2" type="Node2D" parent="." unique_id=365471588]
 position = Vector2(550, 30)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeAngled2" unique_id=1585666080]
@@ -181,6 +173,7 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
 [node name="Point2" type="Node2D" parent="LatticeAngled2" unique_id=1038672912]
 position = Vector2(60, 0)
+rotation = 1.1071488
 script = ExtResource("3_cnvne")
 metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
@@ -192,8 +185,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeAngled3" type="Node2D" parent="." unique_id=56590494]
 position = Vector2(670, 30)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeAngled3" unique_id=997208416]
@@ -202,6 +193,7 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
 [node name="Point2" type="Node2D" parent="LatticeAngled3" unique_id=325515272]
 position = Vector2(60, 0)
+rotation = 0.7853982
 script = ExtResource("3_cnvne")
 metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
@@ -213,8 +205,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeAngled4" type="Node2D" parent="." unique_id=119541286]
 position = Vector2(670, 70)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeAngled4" unique_id=723183471]
@@ -223,6 +213,7 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
 [node name="Point2" type="Node2D" parent="LatticeAngled4" unique_id=200998897]
 position = Vector2(60, 0)
+rotation = 0.7853982
 script = ExtResource("3_cnvne")
 metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
@@ -234,8 +225,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeAngled5" type="Node2D" parent="." unique_id=68709498]
 position = Vector2(450, 110)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeAngled5" unique_id=1850102565]
@@ -244,6 +233,7 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
 [node name="Point2" type="Node2D" parent="LatticeAngled5" unique_id=157791603]
 position = Vector2(60, 0)
+rotation = 2.55359
 script = ExtResource("3_cnvne")
 metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
@@ -255,8 +245,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeAngled6" type="Node2D" parent="." unique_id=1847688005]
 position = Vector2(550, 110)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticeAngled6" unique_id=1620981495]
@@ -265,6 +253,7 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
 [node name="Point2" type="Node2D" parent="LatticeAngled6" unique_id=262994279]
 position = Vector2(60, 0)
+rotation = 2.2142975
 script = ExtResource("3_cnvne")
 metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
@@ -276,8 +265,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticePolygon-open" type="Node2D" parent="." unique_id=1324260562]
 position = Vector2(450, 190)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticePolygon-open" unique_id=870983398]
@@ -317,8 +304,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticePolygon-closed" type="Node2D" parent="." unique_id=1539174277]
 position = Vector2(590, 190)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="Point1" type="Node2D" parent="LatticePolygon-closed" unique_id=267787558]
@@ -358,8 +343,6 @@ metadata/_custom_type_script = "uid://c4oqhta8548vp"
 [node name="LatticeLeg" type="Node2D" parent="." unique_id=8062344]
 position = Vector2(40, 220)
 script = ExtResource("2_vo7lu")
-closed = null
-filled = null
 metadata/_custom_type_script = "uid://dluq4gg54g784"
 
 [node name="ss" type="Node2D" parent="LatticeLeg" unique_id=691171473]

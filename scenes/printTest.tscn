@@ -1,0 +1,438 @@
+[gd_scene format=3 uid="uid://d1dm61q31j4ei"]
+
+[ext_resource type="Script" uid="uid://bjhb00pvydgc2" path="res://addons/latticecore/Nodes/LatticeWorkspaceRoot.gd" id="1_civ40"]
+[ext_resource type="Script" uid="uid://br33ca75k42ae" path="res://addons/latticecore/Resources/LSettings.gd" id="2_rq66p"]
+[ext_resource type="Script" uid="uid://dluq4gg54g784" path="res://addons/latticecore/Nodes/Lattice.gd" id="3_i1svb"]
+[ext_resource type="Script" uid="uid://c4oqhta8548vp" path="res://addons/latticecore/Nodes/Components/Point.gd" id="4_3fot3"]
+[ext_resource type="Script" uid="uid://ct4muggcjflj4" path="res://addons/latticecore/Nodes/Components/ScrewArray.gd" id="5_2rfek"]
+[ext_resource type="Script" uid="uid://brwcisn626nmc" path="res://addons/latticecore/Nodes/Components/ServoBodyHolder.gd" id="6_5svsx"]
+
+[sub_resource type="Resource" id="Resource_umcg3"]
+script = ExtResource("2_rq66p")
+
+[node name="PrintTest" type="Node2D" unique_id=579452426]
+script = ExtResource("1_civ40")
+lattice_settings = SubResource("Resource_umcg3")
+metadata/_custom_type_script = "uid://bjhb00pvydgc2"
+
+[node name="LatticeBeam" type="Node2D" parent="." unique_id=1328904558]
+position = Vector2(20, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam" unique_id=713460002]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam/Point1" unique_id=1987500130]
+script = ExtResource("5_2rfek")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam" unique_id=1313162790]
+position = Vector2(360, 0)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam2" type="Node2D" parent="." unique_id=1960015021]
+position = Vector2(50, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam2" unique_id=2027941662]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam2/Point1" unique_id=404714107]
+script = ExtResource("5_2rfek")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam2" unique_id=883297754]
+position = Vector2(360, 0)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam14" type="Node2D" parent="." unique_id=1564232866]
+position = Vector2(90, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam14" unique_id=87484982]
+position = Vector2(10, -4.371139e-07)
+script = ExtResource("4_3fot3")
+radius_mm = 20
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam14/Point1" unique_id=1415085994]
+position = Vector2(221, -3.1025195e-07)
+script = ExtResource("5_2rfek")
+hide_outer_guides = true
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="ServoBodyHolder" type="Node2D" parent="LatticeBeam14/Point1" unique_id=881862688]
+script = ExtResource("6_5svsx")
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="ServoBodyHolder2" type="Node2D" parent="LatticeBeam14/Point1" unique_id=835542834]
+position = Vector2(20, -8.742278e-07)
+script = ExtResource("6_5svsx")
+servo_model = "MG90S"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="ServoBodyHolder3" type="Node2D" parent="LatticeBeam14/Point1" unique_id=1371883660]
+position = Vector2(40, -1.7484556e-06)
+script = ExtResource("6_5svsx")
+servo_model = "MG90D"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="ServoBodyHolder4" type="Node2D" parent="LatticeBeam14/Point1" unique_id=722601474]
+position = Vector2(80, -3.4969112e-06)
+rotation = 1.5707964
+script = ExtResource("6_5svsx")
+servo_model = "DS3218"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="ServoBodyHolder5" type="Node2D" parent="LatticeBeam14/Point1" unique_id=872885666]
+position = Vector2(120, -5.2453665e-06)
+script = ExtResource("6_5svsx")
+servo_model = "KST X08 S"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="ServoBodyHolder6" type="Node2D" parent="LatticeBeam14/Point1" unique_id=2044613341]
+position = Vector2(160, -6.9938224e-06)
+rotation = 1.5707964
+script = ExtResource("6_5svsx")
+servo_model = "MG995"
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam14" unique_id=1533389502]
+position = Vector2(350, -1.4821675e-05)
+script = ExtResource("4_3fot3")
+radius_mm = 20
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam3" type="Node2D" parent="." unique_id=176228739]
+position = Vector2(220, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam3" unique_id=311275181]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam3/Point1" unique_id=587548382]
+script = ExtResource("5_2rfek")
+count = 3
+guides = false
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="ScrewArray2" type="Node2D" parent="LatticeBeam3/Point1" unique_id=991054087]
+position = Vector2(320, 0)
+script = ExtResource("5_2rfek")
+count = 3
+guides = false
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam3" unique_id=1718682626]
+position = Vector2(360, 0)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam4" type="Node2D" parent="." unique_id=400753522]
+position = Vector2(190, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam4" unique_id=1170762161]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam4/Point1" unique_id=881482548]
+script = ExtResource("5_2rfek")
+count = 3
+guides = false
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam4" unique_id=493219860]
+position = Vector2(40, -1.271145e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam5" type="Node2D" parent="." unique_id=48567540]
+position = Vector2(190, 90)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam5" unique_id=187183081]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam5/Point1" unique_id=735883562]
+script = ExtResource("5_2rfek")
+count = 3
+guides = false
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam5" unique_id=1426983614]
+position = Vector2(40, -1.271145e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam6" type="Node2D" parent="." unique_id=1447771910]
+position = Vector2(190, 160)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam6" unique_id=390502493]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam6/Point1" unique_id=117076175]
+script = ExtResource("5_2rfek")
+count = 3
+guides = false
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam6" unique_id=440913666]
+position = Vector2(40, -1.271145e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam7" type="Node2D" parent="." unique_id=1624021295]
+position = Vector2(190, 230)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam7" unique_id=911596797]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam7/Point1" unique_id=2109989297]
+script = ExtResource("5_2rfek")
+count = 3
+guides = false
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam7" unique_id=1959581432]
+position = Vector2(40, -1.271145e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam8" type="Node2D" parent="." unique_id=640370837]
+position = Vector2(190, 300)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam8" unique_id=75264441]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam8/Point1" unique_id=226055904]
+script = ExtResource("5_2rfek")
+count = 3
+guides = false
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam8" unique_id=1987908845]
+position = Vector2(40, -1.271145e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam9" type="Node2D" parent="." unique_id=1414765556]
+position = Vector2(160, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam9" unique_id=291474660]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam9/Point1" unique_id=137908710]
+script = ExtResource("5_2rfek")
+count = 5
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+hide_outer_guides = true
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam9" unique_id=1612616233]
+position = Vector2(80, -3.0196006e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam10" type="Node2D" parent="." unique_id=1142555930]
+position = Vector2(160, 130)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam10" unique_id=814836900]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam10/Point1" unique_id=1233241571]
+script = ExtResource("5_2rfek")
+count = 5
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+hide_outer_guides = true
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam10" unique_id=1348492843]
+position = Vector2(80, -3.0196006e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam11" type="Node2D" parent="." unique_id=1247092284]
+position = Vector2(160, 240)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam11" unique_id=1565010469]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam11/Point1" unique_id=722526004]
+script = ExtResource("5_2rfek")
+count = 5
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+hide_outer_guides = true
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam11" unique_id=64545258]
+position = Vector2(80, -3.0196006e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam12" type="Node2D" parent="." unique_id=915531681]
+position = Vector2(130, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam12" unique_id=436957193]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam12/Point1" unique_id=1623112341]
+script = ExtResource("5_2rfek")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+hide_outer_guides = true
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam12" unique_id=1809700243]
+position = Vector2(180, -7.3907395e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeBeam13" type="Node2D" parent="." unique_id=2131298763]
+position = Vector2(130, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam13" unique_id=1798464348]
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam13/Point1" unique_id=985876163]
+script = ExtResource("5_2rfek")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+hide_outer_guides = true
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam13" unique_id=820174037]
+position = Vector2(180, -7.3907395e-06)
+script = ExtResource("4_3fot3")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeLeg" type="Node2D" parent="." unique_id=853999278]
+position = Vector2(250, 20)
+rotation = 1.5707964
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point" type="Node2D" parent="LatticeLeg" unique_id=138557027]
+script = ExtResource("4_3fot3")
+radius_mm = 15
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeLeg/Point" unique_id=122893949]
+script = ExtResource("5_2rfek")
+count = 1
+guides = false
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="ScrewArray2" type="Node2D" parent="LatticeLeg/Point" unique_id=1642394902]
+position = Vector2(40, 0)
+script = ExtResource("5_2rfek")
+count = 1
+guides = false
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeLeg" unique_id=519052818]
+position = Vector2(360, 0)
+script = ExtResource("4_3fot3")
+radius_mm = 5
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeLeg2" type="Node2D" parent="." unique_id=123856464]
+position = Vector2(280, 380)
+rotation = 4.712389
+script = ExtResource("3_i1svb")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point" type="Node2D" parent="LatticeLeg2" unique_id=268749098]
+script = ExtResource("4_3fot3")
+radius_mm = 15
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeLeg2/Point" unique_id=600023861]
+script = ExtResource("5_2rfek")
+count = 1
+guides = false
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="ScrewArray2" type="Node2D" parent="LatticeLeg2/Point" unique_id=580397186]
+position = Vector2(40, 0)
+script = ExtResource("5_2rfek")
+count = 1
+guides = false
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeLeg2" unique_id=1569161031]
+position = Vector2(360, 0)
+script = ExtResource("4_3fot3")
+radius_mm = 5
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
