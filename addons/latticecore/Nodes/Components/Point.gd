@@ -36,3 +36,13 @@ func _recalculate_transform() -> void:
 			child.notification(NOTIFICATION_TRANSFORM_CHANGED)
 		
 	if (point_before != null): point_before.call_deferred("_recalculate_transform")
+
+func to_svg() -> SvgElement:
+	var g = SvgGroup.new()
+	g.label = name
+	
+	for i in get_children():
+		if i.has_method("to_svg"):
+			g.elements.append(i.to_svg())
+	
+	return g

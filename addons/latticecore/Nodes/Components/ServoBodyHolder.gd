@@ -107,3 +107,36 @@ func _draw() -> void:
 		draw_rect(get_bounding_box(), Color.BLUE, false, 0.5)
 		
 	draw_set_transform(Vector2.ZERO, 0)
+
+func to_svg() -> SvgElement:
+	var g = SvgGroup.new()
+	g.label = "%s Servo" % [ servo_model ]
+	if (_servo_model_data == null): return g
+	
+	var width = _servo_model_data['width']
+	var height = _servo_model_data['height']
+	var holes = _servo_model_data['holes']
+
+	var body = SVGRect.new()
+	body.transform = get_global_transform()
+	
+	body.operation = "cut"
+	body.rect = Rect2(-width/2, -height/2, width, height)
+	
+	body.fill = "none"
+	body.stroke = "#00FF00"
+	body.stroke_width = 1.0
+	g.elements.append(body)
+
+	for i in holes:
+		var hole = SvgCircle.new()
+		hole.transform = get_global_transform()
+		hole.center = i.pos
+		hole.radius = i.diameter / 2
+		
+		hole.fill = "none"
+		hole.stroke = "#00FF00"
+		hole.stroke_width = 1.0
+		g.elements.append(hole)
+	
+	return g

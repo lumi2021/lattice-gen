@@ -123,13 +123,6 @@ func get_merged_polygons() -> Array[PackedVector2Array]:
 				
 	return master_polygons
 
-func _draw() -> void:
-	var master_polygons = get_merged_polygons()
-	for poly in master_polygons:
-		var draw_points = poly.duplicate()
-		draw_points.append(draw_points[0])
-		draw_polyline(draw_points, Color.RED, 1, false)
-
 func _get_circle_polygon(center: Vector2, radius: float, segments: int = 32) -> PackedVector2Array:
 	var poly = PackedVector2Array()
 	for i in range(segments):
@@ -179,3 +172,37 @@ func _add_poly_to_union(poly_array: Array[PackedVector2Array], new_poly: PackedV
 					
 	result.append(to_merge)
 	return result
+
+func _draw() -> void:
+	var master_polygons = get_merged_polygons()
+	for poly in master_polygons:
+		var draw_points = poly.duplicate()
+		draw_points.append(draw_points[0])
+		draw_polyline(draw_points, Color.RED, 1, false)
+
+func to_svg() -> SvgElement:
+	var g = SvgGroup.new()
+	g.label = name
+	
+	for i in get_children():
+		if i.has_method("to_svg"):
+			g.elements.append(i.to_svg())
+	
+	var master_polygons = get_merged_polygons()
+	for poly in master_polygons:
+		if poly.is_empty(): continue
+		
+		var path_element = SvgPath.new()
+		path_element.transform = get_global_transform()
+		
+		path_element.operation = "cut"
+		path_element.points = poly
+		path_element.closed = true
+		
+		path_element.fill = "#FF0000" if filled else "none"
+		path_element.stroke = "#FF0000"
+		path_element.stroke_width = 1.0
+		
+		g.elements.append(path_element)
+	
+	return g

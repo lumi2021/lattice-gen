@@ -48,6 +48,11 @@ func _recalculate_transform() -> void:
 func get_bounding_box() -> Rect2:
 	return _bounding_box_rect
 
-func draw() -> void:
+func _draw() -> void:
 	if (!LatticeConstants.debug_draw): return
 	draw_rect(get_bounding_box(), Color.BLUE, false, 0.5)
+
+func to_svg() -> SvgElement:
+	var c = SvgComment.new()
+	c.content = "'%s' Not Implemented" % name
+	return c

@@ -70,7 +70,7 @@ radius_mm = 20
 metadata/_custom_type_script = "uid://c4oqhta8548vp"
 
 [node name="ScrewArray" type="Node2D" parent="LatticeBeam14/Point1" unique_id=1415085994]
-position = Vector2(221, -3.1025195e-07)
+position = Vector2(200, -2.80771e-07)
 script = ExtResource("5_2rfek")
 hide_outer_guides = true
 metadata/_custom_type_script = "uid://ct4muggcjflj4"
