@@ -40,7 +40,7 @@ func generate_svg_from_lattices() -> SvgDocument:
 	
 	return svgDoc
 
-func save_svg_to_file(file_path: String = "res://output.svg") -> void:
+func save_svg_to_file(file_path: String = "res://" + name + ".svg") -> void:
 	var svg_document = generate_svg_from_lattices()
 	var svg_content = svg_document.serialize()
 	var file = FileAccess.open(file_path, FileAccess.WRITE)

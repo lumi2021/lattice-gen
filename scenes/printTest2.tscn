@@ -1,0 +1,224 @@
+[gd_scene format=3 uid="uid://3cd6v5tm61c7"]
+
+[ext_resource type="Script" uid="uid://bjhb00pvydgc2" path="res://addons/latticecore/Nodes/LatticeWorkspaceRoot.gd" id="1_g6738"]
+[ext_resource type="Script" uid="uid://br33ca75k42ae" path="res://addons/latticecore/Resources/LSettings.gd" id="2_u8yid"]
+[ext_resource type="Script" uid="uid://dluq4gg54g784" path="res://addons/latticecore/Nodes/Lattice.gd" id="3_084wd"]
+[ext_resource type="Script" uid="uid://c4oqhta8548vp" path="res://addons/latticecore/Nodes/Components/Point.gd" id="4_58hdq"]
+[ext_resource type="Script" uid="uid://ct4muggcjflj4" path="res://addons/latticecore/Nodes/Components/ScrewArray.gd" id="5_1esdt"]
+[ext_resource type="Script" uid="uid://brwcisn626nmc" path="res://addons/latticecore/Nodes/Components/ServoBodyHolder.gd" id="6_7c0qw"]
+
+[sub_resource type="Resource" id="Resource_umcg3"]
+script = ExtResource("2_u8yid")
+
+[node name="PrintTest" type="Node2D" unique_id=579452426]
+script = ExtResource("1_g6738")
+lattice_settings = SubResource("Resource_umcg3")
+metadata/_custom_type_script = "uid://bjhb00pvydgc2"
+
+[node name="LatticeBeam" type="Node2D" parent="." unique_id=1328904558]
+position = Vector2(20, 20)
+script = ExtResource("3_084wd")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeBeam" unique_id=713460002]
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeBeam/Point1" unique_id=1987500130]
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeBeam" unique_id=1313162790]
+position = Vector2(260, 0)
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeAngled1" type="Node2D" parent="." unique_id=1286781772]
+position = Vector2(20, 50)
+script = ExtResource("3_084wd")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeAngled1" unique_id=1771754031]
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled1/Point1" unique_id=456486726]
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeAngled1" unique_id=506128967]
+position = Vector2(120, 0)
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled1/Point2" unique_id=1280065782]
+position = Vector2(20, 0)
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point3" type="Node2D" parent="LatticeAngled1" unique_id=652389822]
+position = Vector2(260, 0)
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeAngled2" type="Node2D" parent="." unique_id=1350855247]
+position = Vector2(20, 80)
+script = ExtResource("3_084wd")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeAngled2" unique_id=1043214916]
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled2/Point1" unique_id=1254626530]
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeAngled2" unique_id=1311833561]
+position = Vector2(120, 0)
+rotation = 0.15264933
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled2/Point2" unique_id=1225712160]
+position = Vector2(20, 0)
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point3" type="Node2D" parent="LatticeAngled2" unique_id=379741465]
+position = Vector2(250, 20)
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeAngled3" type="Node2D" parent="." unique_id=1525601465]
+position = Vector2(20, 110)
+script = ExtResource("3_084wd")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeAngled3" unique_id=1809354833]
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled3/Point1" unique_id=1914279165]
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeAngled3" unique_id=1813771490]
+position = Vector2(120, 0)
+rotation = 0.32175055
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled3/Point2" unique_id=1632048567]
+position = Vector2(20, 0)
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point3" type="Node2D" parent="LatticeAngled3" unique_id=1307084355]
+position = Vector2(240, 40)
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticeAngled4" type="Node2D" parent="." unique_id=1865333393]
+position = Vector2(20, 140)
+script = ExtResource("3_084wd")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticeAngled4" unique_id=1517685207]
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled4/Point1" unique_id=871245996]
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticeAngled4" unique_id=431833192]
+position = Vector2(120, 0)
+rotation = 1.5707964
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticeAngled4/Point2" unique_id=409818503]
+position = Vector2(20, 0)
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point3" type="Node2D" parent="LatticeAngled4" unique_id=1067553566]
+position = Vector2(120, 80)
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="LatticePolygon" type="Node2D" parent="." unique_id=121796071]
+position = Vector2(20, 170)
+script = ExtResource("3_084wd")
+metadata/_custom_type_script = "uid://dluq4gg54g784"
+
+[node name="Point1" type="Node2D" parent="LatticePolygon" unique_id=1673187177]
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticePolygon/Point1" unique_id=2130958651]
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point2" type="Node2D" parent="LatticePolygon" unique_id=2041173990]
+position = Vector2(80, 0)
+rotation = 1.5707964
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ScrewArray" type="Node2D" parent="LatticePolygon/Point2" unique_id=971649736]
+position = Vector2(20, 0)
+script = ExtResource("5_1esdt")
+guide_diameter_mm = 1.0
+guide_offset_mm = 5.0
+metadata/_custom_type_script = "uid://ct4muggcjflj4"
+
+[node name="Point3" type="Node2D" parent="LatticePolygon" unique_id=355420971]
+position = Vector2(80, 80)
+rotation = 3.1415927
+script = ExtResource("4_58hdq")
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="Point4" type="Node2D" parent="LatticePolygon" unique_id=1048515563]
+position = Vector2(75, 80)
+rotation = 3.1415927
+script = ExtResource("4_58hdq")
+radius_mm = 15
+metadata/_custom_type_script = "uid://c4oqhta8548vp"
+
+[node name="ServoBodyHolder" type="Node2D" parent="LatticePolygon/Point4" unique_id=659396003]
+position = Vector2(55, -4.808253e-06)
+script = ExtResource("6_7c0qw")
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="ServoBodyHolder2" type="Node2D" parent="LatticePolygon/Point4" unique_id=669213322]
+position = Vector2(25, -2.1855697e-06)
+script = ExtResource("6_7c0qw")
+metadata/_custom_type_script = "uid://brwcisn626nmc"
+
+[node name="Point5" type="Node2D" parent="LatticePolygon" unique_id=1677860759]
+position = Vector2(0, 80)
+script = ExtResource("4_58hdq")
+radius_mm = 15
+metadata/_custom_type_script = "uid://c4oqhta8548vp"

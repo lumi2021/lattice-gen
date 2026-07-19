@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1wwrbykge37l"
-valid=false
+uid="uid://tgy4kri4vjgt"
+path="res://.godot/imported/PrintTest.svg-7cfbd4a5e65915255ade26034bd80fe7.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://output.svg"
+source_file="res://PrintTest.svg"
+dest_files=["res://.godot/imported/PrintTest.svg-7cfbd4a5e65915255ade26034bd80fe7.ctex"]
 
 [params]
 

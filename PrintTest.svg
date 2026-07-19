@@ -1,0 +1,2749 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 300.00 400.00"
+    width="300.00mm" height="400.00mm">
+    <g label="LatticeBeam">
+        <g label="Point1">
+            <g label="ScrewArray">
+                <circle
+                    cx="20.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="40.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="60.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="80.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="120.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="160.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="155.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="165.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="155.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="165.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="180.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="175.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="185.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="175.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="185.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="200.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="195.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="205.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="195.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="205.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="220.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="215.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="225.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="215.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="225.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="240.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="235.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="245.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="235.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="245.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="260.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="255.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="265.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="255.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="265.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="280.000" cy="20.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="275.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="285.000" cy="15.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="275.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="285.000" cy="25.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point2">
+        </g>
+        <path
+            d="M 281.951 10.192 L 283.827 10.761 L 285.556 11.685 L 287.071 12.929 L 288.315 14.444 L 289.239 16.173 L 289.808 18.049 L 290.000 20.000 L 289.808 21.951 L 289.239 23.827 L 288.315 25.556 L 287.071 27.071 L 285.556 28.315 L 283.827 29.239 L 281.951 29.808 L 280.000 30.000 L 20.000 30.000 L 18.049 29.808 L 16.173 29.239 L 14.444 28.315 L 12.929 27.071 L 11.685 25.556 L 10.761 23.827 L 10.192 21.951 L 10.000 20.000 L 10.192 18.049 L 10.761 16.173 L 11.685 14.444 L 12.929 12.929 L 14.444 11.685 L 16.173 10.761 L 18.049 10.192 L 20.000 10.000 L 280.000 10.000 Z" 
+            fill="none"
+            stroke="#FF0000" stroke-width="1.0"
+            stroke-linejoin="round"
+        />
+    </g>
+    <g label="LatticeAngled1">
+        <g label="Point1">
+            <g label="ScrewArray">
+                <circle
+                    cx="20.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="40.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="60.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="80.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="120.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point2">
+            <g label="ScrewArray">
+                <circle
+                    cx="160.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="155.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="165.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="155.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="165.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="180.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="175.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="185.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="175.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="185.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="200.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="195.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="205.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="195.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="205.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="220.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="215.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="225.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="215.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="225.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="240.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="235.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="245.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="235.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="245.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="260.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="255.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="265.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="255.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="265.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="280.000" cy="50.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="275.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="285.000" cy="45.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="275.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="285.000" cy="55.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point3">
+        </g>
+        <path
+            d="M 281.951 40.192 L 283.827 40.761 L 285.556 41.685 L 287.071 42.929 L 288.315 44.444 L 289.239 46.173 L 289.808 48.049 L 290.000 50.000 L 289.808 51.951 L 289.239 53.827 L 288.315 55.556 L 287.071 57.071 L 285.556 58.315 L 283.827 59.239 L 281.951 59.808 L 280.000 60.000 L 20.000 60.000 L 18.049 59.808 L 16.173 59.239 L 14.444 58.315 L 12.929 57.071 L 11.685 55.556 L 10.761 53.827 L 10.192 51.951 L 10.000 50.000 L 10.192 48.049 L 10.761 46.173 L 11.685 44.444 L 12.929 42.929 L 14.444 41.685 L 16.173 40.761 L 18.049 40.192 L 20.000 40.000 L 280.000 40.000 Z" 
+            fill="none"
+            stroke="#FF0000" stroke-width="1.0"
+            stroke-linejoin="round"
+        />
+    </g>
+    <g label="LatticeAngled2">
+        <g label="Point1">
+            <g label="ScrewArray">
+                <circle
+                    cx="20.000" cy="80.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="40.000" cy="80.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="60.000" cy="80.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="80.000" cy="80.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="80.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="120.000" cy="80.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="80.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="75.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="85.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point2">
+            <g label="ScrewArray">
+                <circle
+                    cx="159.767" cy="83.041"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="155.586" cy="77.339"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="165.470" cy="78.860"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="154.065" cy="87.223"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="163.949" cy="88.743"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="179.535" cy="86.082"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="175.353" cy="80.380"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="185.237" cy="81.901"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="173.833" cy="90.264"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="183.716" cy="91.784"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="199.302" cy="89.123"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="195.121" cy="83.421"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="205.004" cy="84.942"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="193.600" cy="93.305"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="203.484" cy="94.826"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="219.070" cy="92.165"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="214.888" cy="86.462"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="224.772" cy="87.983"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="213.368" cy="96.346"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="223.251" cy="97.867"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="238.837" cy="95.206"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="234.656" cy="89.504"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="244.539" cy="91.024"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="233.135" cy="99.387"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="243.019" cy="100.908"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="258.605" cy="98.247"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="254.423" cy="92.545"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="264.307" cy="94.065"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="252.902" cy="102.428"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="262.786" cy="103.949"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point3">
+        </g>
+        <path
+            d="M 141.515 70.149 L 141.521 70.116 L 271.521 90.116 L 271.516 90.149 L 271.951 90.192 L 273.827 90.761 L 275.556 91.685 L 277.071 92.929 L 278.315 94.444 L 279.239 96.173 L 279.808 98.049 L 280.000 100.000 L 279.808 101.951 L 279.239 103.827 L 278.315 105.556 L 277.071 107.071 L 275.556 108.315 L 273.827 109.239 L 271.951 109.808 L 270.000 110.000 L 268.484 109.851 L 268.479 109.884 L 139.235 90.000 L 20.000 90.000 L 18.049 89.808 L 16.173 89.239 L 14.444 88.315 L 12.929 87.071 L 11.685 85.556 L 10.761 83.827 L 10.192 81.951 L 10.000 80.000 L 10.192 78.049 L 10.761 76.173 L 11.685 74.444 L 12.929 72.929 L 14.444 71.685 L 16.173 70.761 L 18.049 70.192 L 20.000 70.000 L 140.000 70.000 Z" 
+            fill="none"
+            stroke="#FF0000" stroke-width="1.0"
+            stroke-linejoin="round"
+        />
+    </g>
+    <g label="LatticeAngled3">
+        <g label="Point1">
+            <g label="ScrewArray">
+                <circle
+                    cx="20.000" cy="110.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="40.000" cy="110.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="60.000" cy="110.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="80.000" cy="110.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="110.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="120.000" cy="110.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="110.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="105.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="115.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point2">
+            <g label="ScrewArray">
+                <circle
+                    cx="158.974" cy="116.325"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="155.811" cy="110.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="165.298" cy="113.162"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="152.649" cy="119.487"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="162.136" cy="122.649"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="177.947" cy="122.649"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="174.785" cy="116.325"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="184.272" cy="119.487"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="171.623" cy="125.811"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="181.110" cy="128.974"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="196.921" cy="128.974"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="193.759" cy="122.649"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="203.246" cy="125.811"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="190.596" cy="132.136"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="200.083" cy="135.298"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="215.895" cy="135.298"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="212.732" cy="128.974"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="222.219" cy="132.136"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="209.570" cy="138.460"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="219.057" cy="141.623"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="234.868" cy="141.623"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="231.706" cy="135.298"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="241.193" cy="138.460"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="228.544" cy="144.785"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="238.031" cy="147.947"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="253.842" cy="147.947"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="250.680" cy="141.623"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="260.167" cy="144.785"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="247.517" cy="151.110"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="257.004" cy="154.272"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point3">
+        </g>
+        <path
+            d="M 141.951 100.192 L 143.148 100.555 L 143.162 100.513 L 263.162 140.513 L 263.148 140.555 L 263.827 140.761 L 265.556 141.685 L 267.071 142.929 L 268.315 144.444 L 269.239 146.173 L 269.808 148.049 L 270.000 150.000 L 269.808 151.951 L 269.239 153.827 L 268.315 155.556 L 267.071 157.071 L 265.556 158.315 L 263.827 159.239 L 261.951 159.808 L 260.000 160.000 L 258.049 159.808 L 256.852 159.445 L 256.838 159.487 L 138.377 120.000 L 20.000 120.000 L 18.049 119.808 L 16.173 119.239 L 14.444 118.315 L 12.929 117.071 L 11.685 115.556 L 10.761 113.827 L 10.192 111.951 L 10.000 110.000 L 10.192 108.049 L 10.761 106.173 L 11.685 104.444 L 12.929 102.929 L 14.444 101.685 L 16.173 100.761 L 18.049 100.192 L 20.000 100.000 L 140.000 100.000 Z" 
+            fill="none"
+            stroke="#FF0000" stroke-width="1.0"
+            stroke-linejoin="round"
+        />
+    </g>
+    <g label="LatticeAngled4">
+        <g label="Point1">
+            <g label="ScrewArray">
+                <circle
+                    cx="20.000" cy="140.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="40.000" cy="140.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="60.000" cy="140.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="80.000" cy="140.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="140.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="120.000" cy="140.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="115.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="125.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="140.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="135.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="145.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point2">
+            <g label="ScrewArray">
+                <circle
+                    cx="140.000" cy="160.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="155.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="155.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="180.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="185.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="185.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="200.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="195.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="205.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="195.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="205.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="140.000" cy="220.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="215.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="145.000" cy="225.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="215.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="135.000" cy="225.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point3">
+        </g>
+        <path
+            d="M 141.951 130.192 L 143.827 130.761 L 145.556 131.685 L 147.071 132.929 L 148.315 134.444 L 149.239 136.173 L 149.808 138.049 L 150.000 140.000 L 150.000 220.000 L 149.808 221.951 L 149.239 223.827 L 148.315 225.556 L 147.071 227.071 L 145.556 228.315 L 143.827 229.239 L 141.951 229.808 L 140.000 230.000 L 138.049 229.808 L 136.173 229.239 L 134.444 228.315 L 132.929 227.071 L 131.685 225.556 L 130.761 223.827 L 130.192 221.951 L 130.000 220.000 L 130.000 150.000 L 20.000 150.000 L 18.049 149.808 L 16.173 149.239 L 14.444 148.315 L 12.929 147.071 L 11.685 145.556 L 10.761 143.827 L 10.192 141.951 L 10.000 140.000 L 10.192 138.049 L 10.761 136.173 L 11.685 134.444 L 12.929 132.929 L 14.444 131.685 L 16.173 130.761 L 18.049 130.192 L 20.000 130.000 L 140.000 130.000 Z" 
+            fill="none"
+            stroke="#FF0000" stroke-width="1.0"
+            stroke-linejoin="round"
+        />
+    </g>
+    <g label="LatticePolygon">
+        <g label="Point1">
+            <g label="ScrewArray">
+                <circle
+                    cx="20.000" cy="170.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="15.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="25.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="40.000" cy="170.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="35.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="45.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="60.000" cy="170.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="55.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="65.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="80.000" cy="170.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="75.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="85.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="170.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="165.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="175.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point2">
+            <g label="ScrewArray">
+                <circle
+                    cx="100.000" cy="190.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="185.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="195.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="185.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="195.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="210.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="205.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="215.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="205.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="215.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="230.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="225.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="235.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="225.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="235.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="100.000" cy="250.000"
+                    r="2.000"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="245.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="105.000" cy="255.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="245.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="95.000" cy="255.000"
+                    r="0.500"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point3">
+        </g>
+        <g label="Point4">
+            <g label="SG90 Servo">
+                <path
+                    d="M 45.900 261.250 L 34.100 261.250 L 34.100 238.750 L 45.900 238.750 Z"
+                    fill="none"
+                    stroke="#00FF00" stroke-width="1.0"
+                    stroke-linejoin="round"
+                />
+
+                <circle
+                    cx="40.000" cy="263.850"
+                    r="1.250"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="40.000" cy="236.150"
+                    r="1.250"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+            <g label="SG90 Servo">
+                <path
+                    d="M 75.900 261.250 L 64.100 261.250 L 64.100 238.750 L 75.900 238.750 Z"
+                    fill="none"
+                    stroke="#00FF00" stroke-width="1.0"
+                    stroke-linejoin="round"
+                />
+
+                <circle
+                    cx="70.000" cy="263.850"
+                    r="1.250"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+                <circle
+                    cx="70.000" cy="236.150"
+                    r="1.250"
+                    fill="none" stroke="#00FF00"
+                    stroke-width="1.0"
+                />
+
+            </g>
+        </g>
+        <g label="Point5">
+        </g>
+        <path
+            d="M 101.951 160.192 L 103.827 160.761 L 105.556 161.685 L 107.071 162.929 L 108.315 164.444 L 109.239 166.173 L 109.808 168.049 L 110.000 170.000 L 110.000 250.000 L 109.712 252.926 L 108.858 255.740 L 107.472 258.334 L 105.607 260.607 L 103.334 262.472 L 100.740 263.858 L 97.926 264.712 L 95.000 265.000 L 77.900 265.000 L 77.900 265.100 L 77.862 265.490 L 77.748 265.865 L 77.563 266.211 L 77.314 266.514 L 77.011 266.763 L 76.665 266.948 L 76.290 267.062 L 75.900 267.100 L 64.100 267.100 L 63.710 267.062 L 63.335 266.948 L 62.989 266.763 L 62.686 266.514 L 62.437 266.211 L 62.252 265.865 L 62.138 265.490 L 62.100 265.100 L 62.100 265.000 L 47.900 265.000 L 47.900 265.100 L 47.862 265.490 L 47.748 265.865 L 47.563 266.211 L 47.314 266.514 L 47.011 266.763 L 46.665 266.948 L 46.290 267.062 L 45.900 267.100 L 34.100 267.100 L 33.710 267.062 L 33.335 266.948 L 32.989 266.763 L 32.686 266.514 L 32.437 266.211 L 32.252 265.865 L 32.138 265.490 L 32.100 265.100 L 32.100 265.000 L 20.000 265.000 L 17.074 264.712 L 14.260 263.858 L 11.666 262.472 L 9.393 260.607 L 7.528 258.334 L 6.142 255.740 L 5.288 252.926 L 5.000 250.000 L 5.288 247.074 L 6.142 244.260 L 7.528 241.666 L 9.393 239.393 L 11.666 237.528 L 14.260 236.142 L 17.074 235.288 L 20.000 235.000 L 32.100 235.000 L 32.100 234.900 L 32.138 234.510 L 32.252 234.135 L 32.437 233.789 L 32.686 233.486 L 32.989 233.237 L 33.335 233.052 L 33.710 232.938 L 34.100 232.900 L 45.900 232.900 L 46.290 232.938 L 46.665 233.052 L 47.011 233.237 L 47.314 233.486 L 47.563 233.789 L 47.748 234.135 L 47.862 234.510 L 47.900 234.900 L 47.900 235.000 L 62.100 235.000 L 62.100 234.900 L 62.138 234.510 L 62.252 234.135 L 62.437 233.789 L 62.686 233.486 L 62.989 233.237 L 63.335 233.052 L 63.710 232.938 L 64.100 232.900 L 75.900 232.900 L 76.290 232.938 L 76.665 233.052 L 77.011 233.237 L 77.314 233.486 L 77.563 233.789 L 77.748 234.135 L 77.862 234.510 L 77.900 234.900 L 77.900 235.000 L 90.000 235.000 L 90.000 180.000 L 20.000 180.000 L 18.049 179.808 L 16.173 179.239 L 14.444 178.315 L 12.929 177.071 L 11.685 175.556 L 10.761 173.827 L 10.192 171.951 L 10.000 170.000 L 10.192 168.049 L 10.761 166.173 L 11.685 164.444 L 12.929 162.929 L 14.444 161.685 L 16.173 160.761 L 18.049 160.192 L 20.000 160.000 L 100.000 160.000 Z" 
+            fill="none"
+            stroke="#FF0000" stroke-width="1.0"
+            stroke-linejoin="round"
+        />
+    </g>
+</svg>

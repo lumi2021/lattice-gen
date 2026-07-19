@@ -115,10 +115,10 @@ func get_merged_polygons() -> Array[PackedVector2Array]:
 					else:
 						corner_radius = get_lattice_settings().component_casing_corner_radius_mm
 				
-				var global_child_pos = pt.position + child.position 
-				var bbox = Rect2(global_child_pos + local_bbox.position, local_bbox.size)
+				var global_child_transform = self.get_global_transform().affine_inverse() * child.get_global_transform()
+				var bbox = Rect2(local_bbox.position, local_bbox.size)
 				
-				var housing_poly = _get_rounded_rect_polygon(bbox, corner_radius)
+				var housing_poly = _get_rounded_rect_polygon(bbox, global_child_transform, corner_radius)
 				master_polygons = _add_poly_to_union(master_polygons, housing_poly)
 				
 	return master_polygons
@@ -130,10 +130,9 @@ func _get_circle_polygon(center: Vector2, radius: float, segments: int = 32) -> 
 		poly.append(center + Vector2(cos(angle), sin(angle)) * radius)
 	return poly
 
-func _get_rounded_rect_polygon(rect: Rect2, radius: float, corner_segments: int = 8) -> PackedVector2Array:
+func _get_rounded_rect_polygon(rect: Rect2, transform: Transform2D, radius: float, corner_segments: int = 8) -> PackedVector2Array:
 	var poly = PackedVector2Array()
 	
-	# Trava o raio para nunca bugar se o componente for muito pequeno
 	radius = min(radius, min(rect.size.x / 2.0, rect.size.y / 2.0))
 	
 	var corners = [
@@ -144,13 +143,13 @@ func _get_rounded_rect_polygon(rect: Rect2, radius: float, corner_segments: int 
 	]
 	var start_angles = [0.0, PI * 0.5, PI, PI * 1.5]
 	
-	# Passa por cada quina desenhando um arco
 	for i in range(4):
 		var center = corners[i]
 		var start_angle = start_angles[i]
 		for j in range(corner_segments + 1):
 			var angle = start_angle + (j / float(corner_segments)) * (PI / 2.0)
-			poly.append(center + Vector2(cos(angle), sin(angle)) * radius)
+			var p = center + Vector2(cos(angle), sin(angle)) * radius;
+			poly.append(transform * p)
 			
 	return poly
 

@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="latticeGen (4.6)"
+config/name="latticeGen"
 run/main_scene="uid://bcyii4a2yopx8"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"

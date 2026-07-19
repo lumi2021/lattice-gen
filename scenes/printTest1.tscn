@@ -10,7 +10,7 @@
 [sub_resource type="Resource" id="Resource_umcg3"]
 script = ExtResource("2_rq66p")
 
-[node name="PrintTest" type="Node2D" unique_id=579452426]
+[node name="PrintTest1" type="Node2D" unique_id=579452426]
 script = ExtResource("1_civ40")
 lattice_settings = SubResource("Resource_umcg3")
 metadata/_custom_type_script = "uid://bjhb00pvydgc2"
@@ -93,7 +93,7 @@ metadata/_custom_type_script = "uid://brwcisn626nmc"
 
 [node name="ServoBodyHolder4" type="Node2D" parent="LatticeBeam14/Point1" unique_id=722601474]
 position = Vector2(80, -3.4969112e-06)
-rotation = 1.5707964
+rotation = -4.9916415
 script = ExtResource("6_5svsx")
 servo_model = "DS3218"
 metadata/_custom_type_script = "uid://brwcisn626nmc"
